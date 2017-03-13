@@ -6,6 +6,11 @@
 ##"Petme"
 "이 세상 솔로들을 위한 앱"
 
+##- Play PetmeApp
+<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true" width="250">
+<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif-2.gif?raw=true" width="250">
+
+
 ##Petme App Features
 **※ Firebase를 이용하여 Data 저장 및 파일 업로드**
   
@@ -33,4 +38,3 @@
 |iOS Developer|박찬웅|foodi1121@gmail.com|
 |iOS Developer|조백진|bjjo6457@gmail.com|
 
-##- 
