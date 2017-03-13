@@ -11,7 +11,7 @@
 <img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif-2.gif?raw=true" width="350">
 
 
-##Petme App Features
+##- Petme App Features
 **※ Firebase를 이용하여 Data 저장 및 파일 업로드**
   
 - 회원가입 및 로그인으로 개인 계정을 가질 수 있습니다.
