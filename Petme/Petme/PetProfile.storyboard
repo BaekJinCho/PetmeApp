@@ -22,13 +22,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vwt-0I-qHB">
-                                <rect key="frame" x="-0.5" y="0.0" width="375" height="1200"/>
+                                <rect key="frame" x="-1" y="0.0" width="376" height="1200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XbZ-9H-8f2" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="376" height="1200"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="So8-y5-ToG">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="376" height="1200"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRI-u8-aCp" userLabel="완료">
                                                         <rect key="frame" x="28" y="908" width="319" height="40"/>
@@ -146,10 +146,6 @@
                                                         <rect key="frame" x="0.0" y="23" width="375" height="210"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="path9_hint" highlightedImage="path9" translatesAutoresizingMaskIntoConstraints="NO" id="0hY-wL-PSy" userLabel="path9Copy3">
-                                                        <rect key="frame" x="24" y="810" width="319" height="1"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHp-VY-NJj" userLabel="멍멍이">
                                                         <rect key="frame" x="0.0" y="23" width="375" height="210"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -208,6 +204,10 @@
                                                             <action selector="didClickLaterButton:" destination="HXK-ZK-ryD" eventType="touchUpInside" id="TVM-Wg-cRW"/>
                                                         </connections>
                                                     </button>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="path9_hint" highlightedImage="path9" translatesAutoresizingMaskIntoConstraints="NO" id="0hY-wL-PSy" userLabel="path9Copy3">
+                                                        <rect key="frame" x="28" y="881" width="319" height="1"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
