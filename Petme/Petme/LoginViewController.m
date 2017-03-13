@@ -50,7 +50,7 @@
     self.signInButton.layer.borderWidth = 1;
     self.signInButton.layer.borderColor = [UIColor whiteColor].CGColor;
     
-    self.idTextField.text = @"petme_01@petme.com";
+    self.idTextField.text = @"petme_09@petme.com";
     self.passwordTextField.text = @"123456";
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginPageMove) name:@"initLoginUserPetInfo" object:nil];
