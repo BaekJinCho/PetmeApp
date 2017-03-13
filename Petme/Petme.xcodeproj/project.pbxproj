@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3911461C1E7424A30046D775 /* ProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3911461B1E7424A30046D775 /* ProfileStoryboard.storyboard */; };
+		3911461F1E7445000046D775 /* PetMainProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911461E1E7445000046D775 /* PetMainProfileViewController.m */; };
+		391146221E7449710046D775 /* CustomPetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 391146211E7449710046D775 /* CustomPetCollectionViewCell.m */; };
+		391146251E74553D0046D775 /* CustomPetCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 391146241E74553D0046D775 /* CustomPetCollectionReusableView.m */; };
+		392D82251E755D75005AC479 /* PetProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392D82241E755D75005AC479 /* PetProfile.storyboard */; };
+		392D82271E755DA4005AC479 /* PetProFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392D82261E755DA4005AC479 /* PetProFileViewController.m */; };
+		392D822C1E755EBA005AC479 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392D82291E755EBA005AC479 /* LoginViewController.m */; };
+		392D822D1E755EBA005AC479 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392D822B1E755EBA005AC479 /* SignupViewController.m */; };
+		392D82311E757183005AC479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392D82301E757183005AC479 /* Main.storyboard */; };
+		39E7EAD61E71846100CAB524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EAD51E71846100CAB524 /* main.m */; };
+		39E7EAD91E71846100CAB524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EAD81E71846100CAB524 /* AppDelegate.m */; };
+		39E7EAE11E71846100CAB524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E7EAE01E71846100CAB524 /* Assets.xcassets */; };
+		39E7EAE41E71846100CAB524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E7EAE21E71846100CAB524 /* LaunchScreen.storyboard */; };
+		39E7EB151E72B69800CAB524 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB141E72B69800CAB524 /* DataCenter.m */; };
+		39E7EB1C1E72BAFA00CAB524 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39E7EB1B1E72BAFA00CAB524 /* GoogleService-Info.plist */; };
+		39E7EB3A1E7308C400CAB524 /* Member.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E7EB391E7308C400CAB524 /* Member.storyboard */; };
+		39E7EB4F1E73B0E700CAB524 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E7EB4E1E73B0E700CAB524 /* HomeStoryboard.storyboard */; };
+		39E7EB541E73B11200CAB524 /* PetMainDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB511E73B11200CAB524 /* PetMainDetailViewController.m */; };
+		39E7EB551E73B11200CAB524 /* PetMainHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB531E73B11200CAB524 /* PetMainHomeViewController.m */; };
+		39E7EB5C1E73B13C00CAB524 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB571E73B13C00CAB524 /* DraggableView.m */; };
+		39E7EB5D1E73B13C00CAB524 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB591E73B13C00CAB524 /* DraggableViewBackground.m */; };
+		39E7EB5E1E73B13C00CAB524 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB5B1E73B13C00CAB524 /* OverlayView.m */; };
+		39E7EB611E73B33000CAB524 /* NewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB601E73B33000CAB524 /* NewAnnotation.m */; };
+		39E7EB631E73B34600CAB524 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E7EB621E73B34600CAB524 /* MapKit.framework */; };
+		39E7EB651E73B34B00CAB524 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E7EB641E73B34B00CAB524 /* CoreLocation.framework */; };
+		39E7EB761E73C34700CAB524 /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E7EB751E73C34700CAB524 /* MapStoryboard.storyboard */; };
+		39E7EB7B1E73C36300CAB524 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB781E73C36300CAB524 /* Annotation.m */; };
+		39E7EB7C1E73C36300CAB524 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB7A1E73C36300CAB524 /* MapViewController.m */; };
+		39E7EB7F1E73C8BD00CAB524 /* PetInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7EB7E1E73C8BD00CAB524 /* PetInfoData.m */; };
+		E2315D0201E2C2AD235B4475 /* libPods-Petme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8489978CA0E1836EAB96FD /* libPods-Petme.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3911461B1E7424A30046D775 /* ProfileStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileStoryboard.storyboard; sourceTree = "<group>"; };
+		3911461D1E7445000046D775 /* PetMainProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetMainProfileViewController.h; sourceTree = "<group>"; };
+		3911461E1E7445000046D775 /* PetMainProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetMainProfileViewController.m; sourceTree = "<group>"; };
+		391146201E7449710046D775 /* CustomPetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPetCollectionViewCell.h; sourceTree = "<group>"; };
+		391146211E7449710046D775 /* CustomPetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPetCollectionViewCell.m; sourceTree = "<group>"; };
+		391146231E74553D0046D775 /* CustomPetCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPetCollectionReusableView.h; sourceTree = "<group>"; };
+		391146241E74553D0046D775 /* CustomPetCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPetCollectionReusableView.m; sourceTree = "<group>"; };
+		392D82241E755D75005AC479 /* PetProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetProfile.storyboard; sourceTree = "<group>"; };
+		392D82261E755DA4005AC479 /* PetProFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetProFileViewController.m; sourceTree = "<group>"; };
+		392D82281E755EBA005AC479 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		392D82291E755EBA005AC479 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		392D822A1E755EBA005AC479 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		392D822B1E755EBA005AC479 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		392D82301E757183005AC479 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		39E7EAD11E71846100CAB524 /* Petme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E7EAD51E71846100CAB524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39E7EAD71E71846100CAB524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39E7EAD81E71846100CAB524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39E7EAE01E71846100CAB524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39E7EAE31E71846100CAB524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39E7EAE51E71846100CAB524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E7EB131E72B69800CAB524 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		39E7EB141E72B69800CAB524 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+		39E7EB1B1E72BAFA00CAB524 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39E7EB391E7308C400CAB524 /* Member.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Member.storyboard; sourceTree = "<group>"; };
+		39E7EB421E730E8000CAB524 /* PetProFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetProFileViewController.h; sourceTree = "<group>"; };
+		39E7EB4E1E73B0E700CAB524 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		39E7EB501E73B11200CAB524 /* PetMainDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetMainDetailViewController.h; sourceTree = "<group>"; };
+		39E7EB511E73B11200CAB524 /* PetMainDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetMainDetailViewController.m; sourceTree = "<group>"; };
+		39E7EB521E73B11200CAB524 /* PetMainHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetMainHomeViewController.h; sourceTree = "<group>"; };
+		39E7EB531E73B11200CAB524 /* PetMainHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetMainHomeViewController.m; sourceTree = "<group>"; };
+		39E7EB561E73B13C00CAB524 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		39E7EB571E73B13C00CAB524 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		39E7EB581E73B13C00CAB524 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		39E7EB591E73B13C00CAB524 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		39E7EB5A1E73B13C00CAB524 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		39E7EB5B1E73B13C00CAB524 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		39E7EB5F1E73B33000CAB524 /* NewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAnnotation.h; sourceTree = "<group>"; };
+		39E7EB601E73B33000CAB524 /* NewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAnnotation.m; sourceTree = "<group>"; };
+		39E7EB621E73B34600CAB524 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		39E7EB641E73B34B00CAB524 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		39E7EB751E73C34700CAB524 /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
+		39E7EB771E73C36300CAB524 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		39E7EB781E73C36300CAB524 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		39E7EB791E73C36300CAB524 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		39E7EB7A1E73C36300CAB524 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		39E7EB7D1E73C8BD00CAB524 /* PetInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetInfoData.h; sourceTree = "<group>"; };
+		39E7EB7E1E73C8BD00CAB524 /* PetInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetInfoData.m; sourceTree = "<group>"; };
+		87CFF879158E0750B4E0D1F3 /* Pods-Petme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Petme/Pods-Petme.debug.xcconfig"; sourceTree = "<group>"; };
+		D09AAC2FDBB40BD6AFE6383B /* Pods-Petme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Petme/Pods-Petme.release.xcconfig"; sourceTree = "<group>"; };
+		EE8489978CA0E1836EAB96FD /* libPods-Petme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Petme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39E7EACE1E71846100CAB524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E7EB651E73B34B00CAB524 /* CoreLocation.framework in Frameworks */,
+				39E7EB631E73B34600CAB524 /* MapKit.framework in Frameworks */,
+				E2315D0201E2C2AD235B4475 /* libPods-Petme.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E7EAC81E71846100CAB524 = {
+			isa = PBXGroup;
+			children = (
+				39E7EAD31E71846100CAB524 /* Petme */,
+				39E7EAD21E71846100CAB524 /* Products */,
+				D4C7F1E751E948CFA62206BD /* Pods */,
+				C5670F381EE1DE74B2F34CDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39E7EAD21E71846100CAB524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EAD11E71846100CAB524 /* Petme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E7EAD31E71846100CAB524 /* Petme */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB161E72B69E00CAB524 /* Model */,
+				39E7EB171E72B6B300CAB524 /* View */,
+				39E7EB181E72B6BB00CAB524 /* Controller */,
+				39E7EAD71E71846100CAB524 /* AppDelegate.h */,
+				39E7EAD81E71846100CAB524 /* AppDelegate.m */,
+				39E7EAE21E71846100CAB524 /* LaunchScreen.storyboard */,
+				39E7EAE01E71846100CAB524 /* Assets.xcassets */,
+				39E7EB1B1E72BAFA00CAB524 /* GoogleService-Info.plist */,
+				39E7EAE51E71846100CAB524 /* Info.plist */,
+				39E7EAD41E71846100CAB524 /* Supporting Files */,
+			);
+			path = Petme;
+			sourceTree = "<group>";
+		};
+		39E7EAD41E71846100CAB524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EAD51E71846100CAB524 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39E7EB161E72B69E00CAB524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB131E72B69800CAB524 /* DataCenter.h */,
+				39E7EB141E72B69800CAB524 /* DataCenter.m */,
+				39E7EB7D1E73C8BD00CAB524 /* PetInfoData.h */,
+				39E7EB7E1E73C8BD00CAB524 /* PetInfoData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		39E7EB171E72B6B300CAB524 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB1D1E72C24100CAB524 /* Member */,
+				39E7EB471E730E9500CAB524 /* Pet profile */,
+				39E7EB4C1E73B0AD00CAB524 /* Pet home */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		39E7EB181E72B6BB00CAB524 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB201E72C38700CAB524 /* Membership */,
+				39E7EB461E730E8500CAB524 /* Pet profile */,
+				39E7EB481E73B00400CAB524 /* pet home */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		39E7EB1D1E72C24100CAB524 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB391E7308C400CAB524 /* Member.storyboard */,
+			);
+			name = Member;
+			sourceTree = "<group>";
+		};
+		39E7EB201E72C38700CAB524 /* Membership */ = {
+			isa = PBXGroup;
+			children = (
+				392D82281E755EBA005AC479 /* LoginViewController.h */,
+				392D82291E755EBA005AC479 /* LoginViewController.m */,
+				392D822A1E755EBA005AC479 /* SignupViewController.h */,
+				392D822B1E755EBA005AC479 /* SignupViewController.m */,
+			);
+			name = Membership;
+			sourceTree = "<group>";
+		};
+		39E7EB461E730E8500CAB524 /* Pet profile */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB421E730E8000CAB524 /* PetProFileViewController.h */,
+				392D82261E755DA4005AC479 /* PetProFileViewController.m */,
+			);
+			name = "Pet profile";
+			sourceTree = "<group>";
+		};
+		39E7EB471E730E9500CAB524 /* Pet profile */ = {
+			isa = PBXGroup;
+			children = (
+				392D82241E755D75005AC479 /* PetProfile.storyboard */,
+			);
+			name = "Pet profile";
+			sourceTree = "<group>";
+		};
+		39E7EB481E73B00400CAB524 /* pet home */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB491E73B03500CAB524 /* matching */,
+				39E7EB4A1E73B06E00CAB524 /* location */,
+				39E7EB4B1E73B07A00CAB524 /* profile */,
+			);
+			name = "pet home";
+			sourceTree = "<group>";
+		};
+		39E7EB491E73B03500CAB524 /* matching */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB521E73B11200CAB524 /* PetMainHomeViewController.h */,
+				39E7EB531E73B11200CAB524 /* PetMainHomeViewController.m */,
+				39E7EB501E73B11200CAB524 /* PetMainDetailViewController.h */,
+				39E7EB511E73B11200CAB524 /* PetMainDetailViewController.m */,
+				39E7EB5F1E73B33000CAB524 /* NewAnnotation.h */,
+				39E7EB601E73B33000CAB524 /* NewAnnotation.m */,
+				39E7EB561E73B13C00CAB524 /* DraggableView.h */,
+				39E7EB571E73B13C00CAB524 /* DraggableView.m */,
+				39E7EB581E73B13C00CAB524 /* DraggableViewBackground.h */,
+				39E7EB591E73B13C00CAB524 /* DraggableViewBackground.m */,
+				39E7EB5A1E73B13C00CAB524 /* OverlayView.h */,
+				39E7EB5B1E73B13C00CAB524 /* OverlayView.m */,
+			);
+			name = matching;
+			sourceTree = "<group>";
+		};
+		39E7EB4A1E73B06E00CAB524 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB771E73C36300CAB524 /* Annotation.h */,
+				39E7EB781E73C36300CAB524 /* Annotation.m */,
+				39E7EB791E73C36300CAB524 /* MapViewController.h */,
+				39E7EB7A1E73C36300CAB524 /* MapViewController.m */,
+			);
+			name = location;
+			sourceTree = "<group>";
+		};
+		39E7EB4B1E73B07A00CAB524 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				3911461D1E7445000046D775 /* PetMainProfileViewController.h */,
+				3911461E1E7445000046D775 /* PetMainProfileViewController.m */,
+				391146231E74553D0046D775 /* CustomPetCollectionReusableView.h */,
+				391146241E74553D0046D775 /* CustomPetCollectionReusableView.m */,
+				391146201E7449710046D775 /* CustomPetCollectionViewCell.h */,
+				391146211E7449710046D775 /* CustomPetCollectionViewCell.m */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
+		39E7EB4C1E73B0AD00CAB524 /* Pet home */ = {
+			isa = PBXGroup;
+			children = (
+				392D82301E757183005AC479 /* Main.storyboard */,
+				39E7EB4E1E73B0E700CAB524 /* HomeStoryboard.storyboard */,
+				39E7EB751E73C34700CAB524 /* MapStoryboard.storyboard */,
+				3911461B1E7424A30046D775 /* ProfileStoryboard.storyboard */,
+			);
+			name = "Pet home";
+			sourceTree = "<group>";
+		};
+		C5670F381EE1DE74B2F34CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E7EB641E73B34B00CAB524 /* CoreLocation.framework */,
+				39E7EB621E73B34600CAB524 /* MapKit.framework */,
+				EE8489978CA0E1836EAB96FD /* libPods-Petme.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C7F1E751E948CFA62206BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87CFF879158E0750B4E0D1F3 /* Pods-Petme.debug.xcconfig */,
+				D09AAC2FDBB40BD6AFE6383B /* Pods-Petme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39E7EAD01E71846100CAB524 /* Petme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E7EAE81E71846100CAB524 /* Build configuration list for PBXNativeTarget "Petme" */;
+			buildPhases = (
+				A48AB5302D441E9FCDEA34B1 /* [CP] Check Pods Manifest.lock */,
+				39E7EACD1E71846100CAB524 /* Sources */,
+				39E7EACE1E71846100CAB524 /* Frameworks */,
+				39E7EACF1E71846100CAB524 /* Resources */,
+				17CC1871FF901FDAD8348D80 /* [CP] Embed Pods Frameworks */,
+				D2BCE02AAC03441A23907BBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petme;
+			productName = Petme;
+			productReference = 39E7EAD11E71846100CAB524 /* Petme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39E7EAC91E71846100CAB524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Dev101;
+				TargetAttributes = {
+					39E7EAD01E71846100CAB524 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NN7QXHC8A3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39E7EACC1E71846100CAB524 /* Build configuration list for PBXProject "Petme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39E7EAC81E71846100CAB524;
+			productRefGroup = 39E7EAD21E71846100CAB524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39E7EAD01E71846100CAB524 /* Petme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39E7EACF1E71846100CAB524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392D82251E755D75005AC479 /* PetProfile.storyboard in Resources */,
+				39E7EAE41E71846100CAB524 /* LaunchScreen.storyboard in Resources */,
+				39E7EB3A1E7308C400CAB524 /* Member.storyboard in Resources */,
+				39E7EB4F1E73B0E700CAB524 /* HomeStoryboard.storyboard in Resources */,
+				392D82311E757183005AC479 /* Main.storyboard in Resources */,
+				39E7EB1C1E72BAFA00CAB524 /* GoogleService-Info.plist in Resources */,
+				3911461C1E7424A30046D775 /* ProfileStoryboard.storyboard in Resources */,
+				39E7EB761E73C34700CAB524 /* MapStoryboard.storyboard in Resources */,
+				39E7EAE11E71846100CAB524 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17CC1871FF901FDAD8348D80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Petme/Pods-Petme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48AB5302D441E9FCDEA34B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BCE02AAC03441A23907BBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Petme/Pods-Petme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E7EACD1E71846100CAB524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E7EB5C1E73B13C00CAB524 /* DraggableView.m in Sources */,
+				39E7EB541E73B11200CAB524 /* PetMainDetailViewController.m in Sources */,
+				39E7EB7F1E73C8BD00CAB524 /* PetInfoData.m in Sources */,
+				392D822C1E755EBA005AC479 /* LoginViewController.m in Sources */,
+				391146251E74553D0046D775 /* CustomPetCollectionReusableView.m in Sources */,
+				39E7EB5D1E73B13C00CAB524 /* DraggableViewBackground.m in Sources */,
+				39E7EB7B1E73C36300CAB524 /* Annotation.m in Sources */,
+				39E7EAD91E71846100CAB524 /* AppDelegate.m in Sources */,
+				3911461F1E7445000046D775 /* PetMainProfileViewController.m in Sources */,
+				392D82271E755DA4005AC479 /* PetProFileViewController.m in Sources */,
+				39E7EB551E73B11200CAB524 /* PetMainHomeViewController.m in Sources */,
+				392D822D1E755EBA005AC479 /* SignupViewController.m in Sources */,
+				39E7EB151E72B69800CAB524 /* DataCenter.m in Sources */,
+				391146221E7449710046D775 /* CustomPetCollectionViewCell.m in Sources */,
+				39E7EAD61E71846100CAB524 /* main.m in Sources */,
+				39E7EB5E1E73B13C00CAB524 /* OverlayView.m in Sources */,
+				39E7EB611E73B33000CAB524 /* NewAnnotation.m in Sources */,
+				39E7EB7C1E73C36300CAB524 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39E7EAE21E71846100CAB524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E7EAE31E71846100CAB524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39E7EAE61E71846100CAB524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39E7EAE71E71846100CAB524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39E7EAE91E71846100CAB524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CFF879158E0750B4E0D1F3 /* Pods-Petme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
+				INFOPLIST_FILE = Petme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.petme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39E7EAEA1E71846100CAB524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09AAC2FDBB40BD6AFE6383B /* Pods-Petme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
+				INFOPLIST_FILE = Petme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.petme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39E7EACC1E71846100CAB524 /* Build configuration list for PBXProject "Petme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E7EAE61E71846100CAB524 /* Debug */,
+				39E7EAE71E71846100CAB524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E7EAE81E71846100CAB524 /* Build configuration list for PBXNativeTarget "Petme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E7EAE91E71846100CAB524 /* Debug */,
+				39E7EAEA1E71846100CAB524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39E7EAC91E71846100CAB524 /* Project object */;
+}
