@@ -5,7 +5,7 @@
 🐶 [Petme 영상 보기](https://www.youtube.com/watch?v=M7QMEjWznEE) 
 
 <br>
-##"Petme Intention of the plan (기획 의도)*"
+##"Petme Intention of the plan (기획 의도)"
 "이 세상 솔로들을 위한 앱"
 
 싱글족들이 늘어남에 따라 반려견을 키우는 수가 증가하고 있고, 그것에 맞게 반려견 매칭 어플리케이션을 구상했습니다.<br>
