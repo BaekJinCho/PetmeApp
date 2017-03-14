@@ -1,6 +1,8 @@
 #- Petme App
 ###- 2017.03.08 ~ 2017.03.09
-**- FastCampus Hackathon(iOS School & UX/UI School)**
+**- FastCampus Hackathon(iOS School & UX/UI School)**<br>
+
+🐶 [Petme 영상 보기](https://www.youtube.com/watch?v=M7QMEjWznEE) 
 
 <br>
 ##"Petme Intention of the plan (기획 의도)*"
