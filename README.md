@@ -37,6 +37,7 @@
 
 <br>
 ## - Team members
+
 |UX/UI Designer|김지현|sept2e@gmail.com|
 |:--:|:--:|:--:|
 |iOS Developer|조봉기|whalebab86@gmail.com|
