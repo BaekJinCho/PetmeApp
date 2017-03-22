@@ -26,9 +26,9 @@
 
 @property (nonatomic) PetInfoData *petInfo;
 
-+(instancetype)shreadInstance;
--(void)fetchPetmeInfo;
--(void)fetchLoginUserPetInfo:(NSString *)userUID;
--(void)fetchLoginUserLikePetInfo:(NSString *)userUID;
++ (instancetype)shreadInstance;
+- (void)fetchPetmeInfo;
+- (void)fetchLoginUserPetInfo:(NSString *)userUID;
+- (void)fetchLoginUserLikePetInfo:(NSString *)userUID;
 
 @end

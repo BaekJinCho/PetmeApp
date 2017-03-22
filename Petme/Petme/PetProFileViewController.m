@@ -91,7 +91,7 @@
     [self initProfileInfo:nil];
 }
 
--(void)initProfileInfo:(NSNotification *)notification {
+- (void)initProfileInfo:(NSNotification *)notification {
     
     PetInfoData *info = [DataCenter shreadInstance].petInfo;
 
@@ -152,7 +152,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)viewDidDisappear:(BOOL)animated {
+- (void)viewDidDisappear:(BOOL)animated {
     
 //    [self.lodingBar setHidden:YES];
 //    [self.lodingBar stopAnimating];
@@ -324,7 +324,7 @@
 }
 
 //키보드 내려가기
--(BOOL)textFieldShouldReturn:(UITextField *)textField
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
     

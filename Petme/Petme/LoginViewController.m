@@ -69,12 +69,12 @@
 //텍스트 필드를 입력했을 때 로그인 버튼에 color이 채워지는 메소드
 -(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
     
-     if ((self.idTextField.text.length > 0 && textField.tag == 2) ||  (self.passwordTextField.text.length >0 && textField.tag == 1))
+     if ((self.idTextField.text.length > 0 && textField.tag == 2) || (self.passwordTextField.text.length >0 && textField.tag == 1))
      {
         //로그인 버튼의 이미지
          self.signInButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
          [self.signInButton setTitleColor:[UIColor colorWithRed:80/255.0 green:164/255.0 blue:112/255.0 alpha:1] forState:UIControlStateNormal];
-     }else if((self.idTextField.text.length == 1 && textField.tag == 1) || (self.passwordTextField.text.length == 1 &&  textField.tag == 2)){
+     } else if ((self.idTextField.text.length == 1 && textField.tag == 1) || (self.passwordTextField.text.length == 1 &&  textField.tag == 2)){
          self.signInButton.layer.backgroundColor = [UIColor colorWithRed:80/255.0 green:164/255.0 blue:112/255.0 alpha:1].CGColor;
         [self.signInButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
      }
@@ -149,7 +149,7 @@
 //         if(![user.email isEqualToString:self.idTextField.text]) {
 
 //         예외처리 방법2(가입한 이메일이 없을 경우 예외처리)
-         if(error) {
+         if (error) {
          
              [self.lodingBar setHidden:YES];
              [self.lodingBar stopAnimating];
@@ -157,9 +157,9 @@
              NSString *msg = @" ";
              NSString *errorName = [[error valueForKey:@"userInfo"] valueForKey:@"error_name"];
              
-             if([errorName isEqualToString:@"ERROR_USER_NOT_FOUND"]) {
+             if ([errorName isEqualToString:@"ERROR_USER_NOT_FOUND"]) {
                  msg = @"회원정보가 없습니다.";
-             }else if([errorName isEqualToString:@"ERROR_WRONG_PASSWORD"]) {
+             } else if ([errorName isEqualToString:@"ERROR_WRONG_PASSWORD"]) {
                  msg = @"비밀번호가 틀렸습니다.";
              }
          

@@ -10,7 +10,7 @@
 
 @implementation PetInfoData
 
--(instancetype)initWithPetInfo:(FIRDataSnapshot *)petInfo {
+- (instancetype)initWithPetInfo:(FIRDataSnapshot *)petInfo {
     
     self = [super init];
     
@@ -45,7 +45,7 @@
     return self;
 }
 
--(instancetype)initWithPetLikeInfo:(FIRDataSnapshot *)petInfo {
+- (instancetype)initWithPetLikeInfo:(FIRDataSnapshot *)petInfo {
     
     self = [super init];
     
@@ -66,7 +66,7 @@
     return self;
 }
 
--(NSDictionary *)formatDictionary {
+- (NSDictionary *)formatDictionary {
     
     NSDictionary *userInfo = @{@"petImageUrl":self.petImageUrl,
                                @"petName":self.petName,

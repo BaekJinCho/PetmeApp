@@ -109,12 +109,11 @@
              NSString *msg = @" ";
              NSString *errorName = [[error valueForKey:@"userInfo"] valueForKey:@"error_name"];
              
-             if([errorName isEqualToString:@"ERROR_INVALID_EMAIL"]) {
+             if ([errorName isEqualToString:@"ERROR_INVALID_EMAIL"]) {
                  msg = @"잘못된 이메일 주소입니다.";
-             }else if([errorName isEqualToString:@"ERROR_WEAK_PASSWORD"]) {
+             } else if ([errorName isEqualToString:@"ERROR_WEAK_PASSWORD"]) {
                  msg = @"비밀번호를 6자 이상으로 설정하세요.";
-             }
-             else if([errorName isEqualToString:@"ERROR_EMAIL_ALREADY_IN_USE"]) {
+             } else if ([errorName isEqualToString:@"ERROR_EMAIL_ALREADY_IN_USE"]) {
                  msg = @"입력하신 이메일 주소가 이미 존재합니다.";
              }
              

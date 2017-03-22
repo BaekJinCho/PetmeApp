@@ -11,7 +11,7 @@
 
 @implementation DataCenter
 
-+(instancetype)shreadInstance {
++ (instancetype)shreadInstance {
     
     static DataCenter *dataCenter = nil;
     
@@ -32,7 +32,7 @@
     return self;
 }
 
--(void)initData {
+- (void)initData {
     
     [FIRApp configure];
     
@@ -42,7 +42,7 @@
 }
 
 /* 강아지 전체 정보 */
--(void)fetchPetmeInfo {
+- (void)fetchPetmeInfo {
     
     [[self.ref child:@"user"] observeSingleEventOfType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
         
@@ -65,7 +65,7 @@
 }
 
 /* 로그인 유저의 강아지 정보 */
--(void)fetchLoginUserPetInfo:(NSString *)userUID {
+- (void)fetchLoginUserPetInfo:(NSString *)userUID {
 
     FIRDatabaseQuery *query = [[[[FIRDatabase database] reference] child:@"user"] child:userUID];
 
@@ -81,7 +81,7 @@
 }
 
 /* 좋아요 강아지 정보 */
--(void)fetchLoginUserLikePetInfo:(NSString *)userUID {
+- (void)fetchLoginUserLikePetInfo:(NSString *)userUID {
     
     FIRDatabaseQuery *query = [[[[FIRDatabase database] reference] child:@"user"] child:userUID];
     

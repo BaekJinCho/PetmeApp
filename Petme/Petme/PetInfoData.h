@@ -22,8 +22,8 @@
 
 @property (nonatomic) NSData   *petImageData;
 
--(instancetype)initWithPetInfo:(FIRDataSnapshot *)petInfo;
--(instancetype)initWithPetLikeInfo:(FIRDataSnapshot *)petInfo;
--(NSDictionary *)formatDictionary;
+- (instancetype)initWithPetInfo:(FIRDataSnapshot *)petInfo;
+- (instancetype)initWithPetLikeInfo:(FIRDataSnapshot *)petInfo;
+- (NSDictionary *)formatDictionary;
 
 @end
