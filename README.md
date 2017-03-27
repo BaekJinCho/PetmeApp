@@ -33,16 +33,16 @@
 
 - 지도에서 현재 위치 및 자주 산책하는 장소를 Pin으로 표시할 수 있습니다.
 
-- 프로필에서 내가 좋아한 Pet & 나를 좋아한 Pet을 볼 수 있s습니다.
+- 프로필에서 내가 좋아한 Pet & 나를 좋아한 Pet을 볼 수 있습니다.
  
 
 <br>
 
 ## - Team members
 
-|UX/UI Designer|김지현|sept2e@gmail.com|
+|분야|이름|이메일|
 |:--:|:--:|:--:|
-|iOS Developer|조봉기|whalebab86@gmail.com|
-|iOS Developer|박찬웅|foodi1121@gmail.com|
-|iOS Developer|조백진|bjjo6457@gmail.com|
-
+|UX/UI|김지현|sept2e@gmail.com|
+|iOS|조봉기|whalebab86@gmail.com|
+|iOS|박찬웅|foodi1121@gmail.com|
+|iOS|조백진|bjjo6457@gmail.com|
