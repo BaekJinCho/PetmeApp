@@ -17,8 +17,8 @@
 
 ## - Play PetmeApp
 
-<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true" width="300">
-<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif-2.gif?raw=true" width="300">
+<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true" width="350">
+<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif-2.gif?raw=true" width="350">
 
 
 ## - Petme App Features
