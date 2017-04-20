@@ -15,15 +15,17 @@
 싱글족들이 늘어남에 따라 반려견을 키우는 수가 증가하고 있고, 그것에 맞게 반려견 매칭 어플리케이션을 구상했습니다.<br>
 '사람'보다 그들의 '반려견'을 보고 상대방을 매칭시켜 매칭에 더 재미를 줄 수 있게 생각해 보았습니다.
 
-## - Play PetmeApp
+<br>
+
+## - Play Petme App
 
 <img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true" width="350">
 <img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif-2.gif?raw=true" width="350">
 
 
-## - Petme App Features
+<br><br>
 
-**※ Firebase를 이용하여 Data 저장 및 파일 업로드**
+## - Petme App Features
   
 - 회원가입 및 로그인으로 개인 계정을 가질 수 있습니다.
 
@@ -39,7 +41,12 @@
 - 지도에서 현재 위치 및 자주 산책하는 장소를 Pin으로 표시할 수 있습니다.
 
 - 프로필에서 내가 좋아한 Pet & 나를 좋아한 Pet을 볼 수 있습니다.
- 
+
+## - Petme App Technicque
+	
+- Firebase를 이용하여 Data 저장 및 파일 업로드
+
+- TinderSimpleSwipeCards를 이용하여 메인 페이지 구성
 
 <br>
 
